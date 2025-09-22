@@ -5,6 +5,11 @@
 
 ---
 
+## 🔬 Research Interests
+**Computational Fluid Dynamics (CFD)** · **Non-Newtonian fluid dynamics** · **Biofluids & Rheology** · **Porous media** · Micro/Nanofluidics
+
+---
+
 ## 🧑‍🎓 Education
 - **M.Sc. Mechanical Engineering**, University of Tehran (Sep 2023 – Present)  
   GPA: **3.44/4.00** (final year: **3.75/4.00**)  
@@ -17,11 +22,6 @@
 
 ---
 
-## 🔬 Research Interests
-CFD · Non-Newtonian fluid dynamics · Biofluids & Rheology · Porous media
-
----
-
 ## 📂 Selected Projects
 - **Gas flow in microchannels** *(COMSOL Multiphysics, 2025)*  
 - **Thermally driven rarefied microchannel flow** *(COMSOL Multiphysics, 2025)*  
@@ -31,23 +31,17 @@ CFD · Non-Newtonian fluid dynamics · Biofluids & Rheology · Porous media
 - **Linear stability of Walter’s-B fluid** *(MATLAB, 2024)*  
 - **Power-law fluid in an annulus** *(OpenFOAM, 2024)*
 
-> Repos coming online:  
-> • DEP microchannel: [`comsol-dep-yy-ctc`](https://github.com/vegalandme/comsol-dep-yy-ctc)  
-> • Hemodynamics: [`comsol-hemodynamics-stenosis`](https://github.com/vegalandme/comsol-hemodynamics-stenosis)  
-> • OpenFOAM annulus: [`openfoam-powerlaw-annulus`](https://github.com/vegalandme/openfoam-powerlaw-annulus)  
-> • Application pack: [`gcf-ntu-brief`](https://github.com/vegalandme/gcf-ntu-brief)
+> Repositories (to be populated):  
+> • DEP microchannel: [`comsol-dep-yy-ctc`](https://github.com/MM-Rahimi/comsol-dep-yy-ctc)  
+> • Hemodynamics: [`comsol-hemodynamics-stenosis`](https://github.com/MM-Rahimi/comsol-hemodynamics-stenosis)  
+> • OpenFOAM annulus: [`openfoam-powerlaw-annulus`](https://github.com/MM-Rahimi/openfoam-powerlaw-annulus)
 
 ---
 
 ## 💼 Experience
-- **R&D Assistant**, OilPet (Nov 2022 – Aug 2023)  
-  Biofuels from waste cooking oils; exploratory work on biolubricants
-
-- **Site Manager & Coordinator**, Medwave (Dec 2019 – Oct 2021)  
-  High-tech air & surface disinfection device
-
-- **R&D Intern**, Maral Sanat (Jun 2018 – Aug 2018)  
-  Trailer & axle component design *(CATIA)*
+- **R&D Assistant**, OilPet (Nov 2022 – Aug 2023) — Biofuels from waste cooking oils; exploratory biolubricants  
+- **Site Manager & Coordinator**, Medwave (Dec 2019 – Oct 2021) — High-tech air & surface disinfection device  
+- **R&D Intern**, Maral Sanat (Jun 2018 – Aug 2018) — Trailer & axle component design *(CATIA)*
 
 ---
 
@@ -71,5 +65,5 @@ CFD · Non-Newtonian fluid dynamics · Biofluids & Rheology · Porous media
 ## 📫 Contact
 - **Email:** mm.rahimi@ut.ac.ir  
 - **Phone:** +98-914-730-3060  
-- **GitHub:** https://github.com/vegalandme  
-<!-- Optional when ready: [LinkedIn](YOUR_URL) · [Google Scholar](YOUR_URL) -->
+- **GitHub:** https://github.com/MM-Rahimi  
+<!-- Optional: [LinkedIn](YOUR_URL) · [Google Scholar](YOUR_URL) -->
