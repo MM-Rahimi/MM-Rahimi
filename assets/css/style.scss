@@ -1,0 +1,17 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+:root {
+  --brand-primary: #0b5cad;   /* formal blue */
+  --brand-accent:  #1f3b57;   /* deep slate */
+}
+
+a, a:visited { color: var(--brand-primary); }
+a:hover { color: var(--brand-accent); }
+
+.site-title, .page-link { color: var(--brand-accent) !important; }
+h1, h2, h3 { color: var(--brand-accent); }
+
+.site-header, .site-footer { border-color: #e6e6e6; }
