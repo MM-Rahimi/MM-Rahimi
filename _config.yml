@@ -1,9 +1,0 @@
-title: "Mohammad Mahdi Rahimi"
-description: "M.Sc. ME · Non-Newtonian CFD & COMSOL · Micro/Nano/Biofluids"
-theme: minima
-minima:
-  skin: classic
-markdown: kramdown
-kramdown:
-  input: GFM
-show_excerpts: false
