@@ -10970,3 +10970,42 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+/* === MM-Rahimi theme overrides === */
+:root{
+  --bs-primary: #044A6B;               /* links, accents */
+  --bs-link-color: #044A6B;
+  --bs-link-hover-color: #033a54;
+}
+
+/* sidebar (name + photo) */
+#sideNav{
+  background-color:#1F3A47 !important;
+}
+
+/* section headings & bullets */
+.text-primary{ color:#044A6B !important; }
+.resume-section .resume-section-content h2{
+  color:#044A6B;
+}
+
+/* active nav item indicator color */
+.navbar-dark .navbar-nav .nav-link.active{
+  color:#fff;
+  background: rgba(4,74,107,0.18);
+  border-radius:.25rem;
+}
+
+/* link buttons (if any) */
+.btn-primary{
+  background-color:#044A6B;
+  border-color:#044A6B;
+}
+.btn-primary:hover{
+  background-color:#033a54;
+  border-color:#033a54;
+}
+
+/* optional: page background contrast (subtle) */
+body{ background: #f7fafc; }  /* remove if you prefer pure white */
+
