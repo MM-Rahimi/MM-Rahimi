@@ -1,56 +1,47 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>Mohammad Mahdi Rahimi</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <style>
-    :root{
-      --brand:#0b5cad;       /* primary blue */
-      --accent:#1f3b57;      /* deep slate */
-      --text:#1f2328;        /* neutral text */
-      --muted:#6b7280;       /* gray */
-      --bg:#ffffff;
-      --line:#e6e6e6;
-    }
-    *{box-sizing:border-box}
-    body{margin:0;font:16px/1.55 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;color:var(--text);background:var(--bg)}
-    a{color:var(--brand);text-decoration:none} a:hover{color:var(--accent);text-decoration:underline}
-
-    /* header / nav */
-    .nav{
-      position:sticky; top:0; z-index:10;
-      background:#fffcc; background:var(--bg);
-      border-bottom:1px solid var(--line);
-    }
-    .wrap{max-width:960px;margin:0 auto;padding:0 16px}
-    .nav-inner{display:flex;align-items:center;justify-content:space-between;height:56px}
-    .brand{font-weight:700;color:var(--accent)}
-    .menu{display:flex;gap:14px;font-size:14px}
-    .menu a{padding:6px 8px;border-radius:6px}
-    .menu a:hover{background:#f5f7fb}
-
-    /* sections */
-    section{scroll-margin-top:72px;padding:28px 0;border-bottom:1px solid var(--line)}
-    h1{font-size:28px;margin:0 0 6px;color:var(--accent)}
-    h2{font-size:20px;margin:0 0 12px;color:var(--accent)}
-    p{margin:8px 0}
-    .subtle{color:var(--muted)}
-    .grid{display:grid;gap:8px}
-    .two{grid-template-columns:1fr 1fr}
-    .pill{display:inline-block;border:1px solid var(--line);padding:2px 8px;border-radius:999px;margin:2px 6px 2px 0;font-size:13px}
-    .kvs{display:flex;gap:8px;flex-wrap:wrap}
-    .kv{padding:8px 10px;border:1px solid var(--line);border-radius:8px}
-    .right{float:right;color:var(--brand);font-style:italic}
-    ul{margin:8px 0 0 18px}
-    @media (max-width:720px){.two{grid-template-columns:1fr}.right{float:none;display:block;margin-top:2px}}
-    .footer{padding:18px 0;color:var(--muted);text-align:center;border-top:1px solid var(--line)}
-  </style>
+<meta charset="utf-8">
+<title>Mohammad Mahdi Rahimi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root{
+    --brand:#0b5cad;   /* formal blue */
+    --accent:#1f3b57;  /* deep slate */
+    --text:#1f2328;
+    --muted:#6b7280;
+    --line:#e6e6e6;
+    --bg:#ffffff;
+    --card:#f8fafc;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--text);background:var(--bg)}
+  a{color:var(--brand);text-decoration:none} a:hover{color:var(--accent);text-decoration:underline}
+  h1,h2,h3{color:var(--accent);margin:0 0 10px}
+  .wrap{max-width:1080px;margin:0 auto;padding:18px}
+  .grid{display:grid;gap:18px;grid-template-columns:320px 1fr}
+  @media (max-width:900px){.grid{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+  .nav{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line)}
+  .navinner{max-width:1080px;margin:0 auto;padding:10px 18px;display:flex;gap:18px;align-items:center;justify-content:space-between}
+  .brand{font-weight:700;color:var(--accent)}
+  .menu{display:flex;gap:14px;flex-wrap:wrap;font-size:14px}
+  .menu a{padding:4px 8px;border-radius:6px}
+  .menu a:hover{background:#f5f7fb;text-decoration:none}
+  .avatar{width:120px;height:120px;border-radius:12px;object-fit:cover;border:1px solid var(--line)}
+  .kvs{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+  .kv{padding:8px 10px;border:1px solid var(--line);border-radius:8px;font-size:14px;background:#fff}
+  .pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:2px 10px;margin:2px 6px 2px 0;font-size:13px;background:#fff}
+  section{scroll-margin-top:72px;margin-bottom:24px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+  .right{float:right;color:var(--brand);font-style:italic}
+  .subtle{color:var(--muted)}
+  ul{margin:8px 0 0 18px}
+</style>
 </head>
 <body>
 
 <header class="nav">
-  <div class="wrap nav-inner">
+  <div class="navinner">
     <div class="brand">Mohammad Mahdi Rahimi</div>
     <nav class="menu">
       <a href="#about">About</a>
@@ -64,90 +55,110 @@
   </div>
 </header>
 
-<main class="wrap">
+<div class="wrap">
+  <div class="grid">
+    <!-- LEFT CARD -->
+    <aside class="card">
+      <img src="assets/img/profile.jpg" alt="Portrait" class="avatar">
+      <h2 style="margin-top:12px;">Mohammad Mahdi Rahimi</h2>
+      <p class="subtle">M.Sc. Mechanical Engineering · University of Tehran</p>
+      <div class="kvs">
+        <div class="kv"><strong>Graduation:</strong> Sep 2026</div>
+        <div class="kv"><strong>IELTS:</strong> 7.0 (Nov 2023)</div>
+        <div class="kv"><strong>GPA (M.Sc.):</strong> 3.44/4.00 (final 3.75/4.00)</div>
+      </div>
+      <p style="margin-top:10px;"><strong>Focus</strong></p>
+      <p>Non-Newtonian <strong>CFD & COMSOL</strong>; Micro/Nanofluidics; Biofluids; Porous media</p>
+      <p style="margin-top:10px;"><strong>Quick links</strong></p>
+      <p>
+        <a href="CV.pdf">CV (PDF)</a><br>
+        <a href="mailto:mm.rahimi@ut.ac.ir">mm.rahimi@ut.ac.ir</a><br>
+        <a href="https://github.com/MM-Rahimi">github.com/MM-Rahimi</a>
+      </p>
+      <p style="margin-top:10px;"><strong>Tags</strong></p>
+      <p>
+        <span class="pill">CFD</span><span class="pill">Non-Newtonian</span>
+        <span class="pill">COMSOL</span><span class="pill">Microfluidics</span>
+        <span class="pill">Biofluids</span><span class="pill">OpenFOAM</span>
+      </p>
+    </aside>
 
-  <section id="about">
-    <h1>Hi, I'm Mohammad Mahdi Rahimi</h1>
-    <p><strong>M.Sc. Mechanical Engineering — University of Tehran</strong></p>
-    <p>Non-Newtonian <strong>CFD &amp; COMSOL</strong> · Micro/Nanofluidics · Biofluids · Porous media</p>
-    <p class="subtle">Tehran, Iran · <a href="mailto:mm.rahimi@ut.ac.ir">mm.rahimi@ut.ac.ir</a></p>
-    <div class="kvs">
-      <div class="kv"><strong>Graduation:</strong> Sep 2026</div>
-      <div class="kv"><strong>IELTS:</strong> 7.0 (Nov 2023)</div>
-      <div class="kv"><strong>GPA (M.Sc.):</strong> 3.44/4.00 (final 3.75/4.00)</div>
-    </div>
-  </section>
+    <!-- RIGHT CONTENT -->
+    <main>
+      <section id="about">
+        <h1>About</h1>
+        <p>I'm a steady, hands-on mechanical engineering student who enjoys turning simulations into simple rules others can use. My current work focuses on non-Newtonian flows in small devices and in the human body.</p>
+        <p class="subtle">Tehran, Iran · <a href="mailto:mm.rahimi@ut.ac.ir">mm.rahimi@ut.ac.ir</a></p>
+      </section>
 
-  <section id="education">
-    <h2>Education</h2>
-    <p><strong>M.Sc. Mechanical Engineering</strong>, University of Tehran <span class="right">Sep 2023 – Present</span><br>
-       Thesis: <em>Spontaneous imbibition of non-Newtonian fluids in porous media</em></p>
-    <p><strong>B.Sc. Mechanical Engineering</strong>, Urmia University <span class="right">Sep 2017 – Sep 2021</span><br>
-       Thesis: <em>2-D incompressible flow via the streamfunction–vorticity formulation</em></p>
-  </section>
+      <section id="education">
+        <h2>Education</h2>
+        <p><strong>M.Sc. Mechanical Engineering</strong>, University of Tehran <span class="right">Sep 2023 – Present</span><br>
+           Thesis: <em>Spontaneous imbibition of non-Newtonian fluids in porous media</em></p>
+        <p><strong>B.Sc. Mechanical Engineering</strong>, Urmia University <span class="right">Sep 2017 – Sep 2021</span><br>
+           Thesis: <em>2-D incompressible flow via the streamfunction–vorticity formulation</em></p>
+      </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Gas flow in microchannels</strong> — COMSOL Multiphysics <span class="right">2025</span></li>
-      <li><strong>Thermally driven rarefied microchannel flow</strong> — COMSOL Multiphysics <span class="right">2025</span></li>
-      <li><strong>CTC separation via dielectrophoresis</strong> — COMSOL Multiphysics <span class="right">2025</span></li>
-      <li><strong>Liquid argon in a platinum nanochannel</strong> — LAMMPS <span class="right">2025</span></li>
-      <li><strong>Pulsatile non-Newtonian blood flow</strong> — COMSOL Multiphysics <span class="right">2024</span></li>
-      <li><strong>Linear stability of Walter’s-B fluid</strong> — MATLAB <span class="right">2024</span></li>
-      <li><strong>Power-law fluid in an annulus</strong> — OpenFOAM <span class="right">2024</span></li>
-      <li><strong>Buerger’s equation: Keller–Box / Thomas block</strong> — MATLAB <span class="right">2024</span></li>
-      <li><strong>Concentric-cylinder steady flow (solver comparison)</strong> — MATLAB <span class="right">2024</span></li>
-      <li><strong>Porous-plate Poiseuille flow (linear stability)</strong> — MATLAB <span class="right">2023</span></li>
-    </ul>
-    <p class="subtle">Links coming as repositories are prepared:
-      <a href="https://github.com/MM-Rahimi/comsol-dep-yy-ctc">DEP microchannel</a> ·
-      <a href="https://github.com/MM-Rahimi/comsol-hemodynamics-stenosis">Hemodynamics</a> ·
-      <a href="https://github.com/MM-Rahimi/openfoam-powerlaw-annulus">OpenFOAM annulus</a>
-    </p>
-  </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li><strong>Gas flow in microchannels</strong> — COMSOL Multiphysics <span class="right">2025</span></li>
+          <li><strong>Thermally driven rarefied microchannel flow</strong> — COMSOL Multiphysics <span class="right">2025</span></li>
+          <li><strong>CTC separation via dielectrophoresis</strong> — COMSOL Multiphysics <span class="right">2025</span></li>
+          <li><strong>Liquid argon in a platinum nanochannel</strong> — LAMMPS <span class="right">2025</span></li>
+          <li><strong>Pulsatile non-Newtonian blood flow</strong> — COMSOL Multiphysics <span class="right">2024</span></li>
+          <li><strong>Linear stability of Walter’s-B fluid</strong> — MATLAB <span class="right">2024</span></li>
+          <li><strong>Power-law fluid in an annulus</strong> — OpenFOAM <span class="right">2024</span></li>
+          <li><strong>Buerger’s equation: Keller–Box / Thomas block</strong> — MATLAB <span class="right">2024</span></li>
+          <li><strong>Concentric-cylinder steady flow (solver comparison)</strong> — MATLAB <span class="right">2024</span></li>
+          <li><strong>Porous-plate Poiseuille flow (linear stability)</strong> — MATLAB <span class="right">2023</span></li>
+        </ul>
+        <p class="subtle">Repo links (as you publish): 
+          <a href="https://github.com/MM-Rahimi/comsol-dep-yy-ctc">DEP microchannel</a> ·
+          <a href="https://github.com/MM-Rahimi/comsol-hemodynamics-stenosis">Hemodynamics</a> ·
+          <a href="https://github.com/MM-Rahimi/openfoam-powerlaw-annulus">OpenFOAM annulus</a>
+        </p>
+      </section>
 
-  <section id="experience">
-    <h2>Experience</h2>
-    <p><strong>R&amp;D Assistant</strong>, OilPet <span class="right">Nov 2022 – Aug 2023</span><br>
-      Biofuels from waste cooking oils; exploratory biolubricants.</p>
-    <p><strong>Site Manager &amp; Coordinator</strong>, Medwave <span class="right">Dec 2019 – Oct 2021</span><br>
-      High-tech air &amp; surface disinfection device (electronics &amp; assembly).</p>
-    <p><strong>Engineering Intern (R&amp;D)</strong>, Maral Sanat <span class="right">Jun 2018 – Aug 2018</span><br>
-      Trailer &amp; axle component design (CATIA).</p>
-  </section>
+      <section id="experience">
+        <h2>Experience</h2>
+        <p><strong>R&amp;D Assistant</strong>, OilPet <span class="right">Nov 2022 – Aug 2023</span><br>
+           Biofuels from waste cooking oils; exploratory biolubricants.</p>
+        <p><strong>Site Manager &amp; Coordinator</strong>, Medwave <span class="right">Dec 2019 – Oct 2021</span><br>
+           High-tech air & surface disinfection device (electronics & assembly).</p>
+        <p><strong>Engineering Intern (R&amp;D)</strong>, Maral Sanat <span class="right">Jun 2018 – Aug 2018</span><br>
+           Trailer & axle component design (CATIA).</p>
+      </section>
 
-  <section id="awards">
-    <h2>Awards</h2>
-    <ul>
-      <li>National Graduate Full-Ride Scholarship — University of Tehran (2023)</li>
-      <li>Nationwide Graduate Entrance Exam: <strong>Rank 5 / 9,000</strong> (2023)</li>
-      <li><strong>Silver Medal</strong> — TEKNOFEST/ISIF’21 (2021)</li>
-      <li>National Undergraduate Full-Ride Scholarship (2017)</li>
-      <li>Nationwide Undergraduate Entrance: <strong>Top 1% (Rank 854 / 148,000)</strong> (2017)</li>
-    </ul>
-  </section>
+      <section id="awards">
+        <h2>Awards</h2>
+        <ul>
+          <li>National Graduate Full-Ride Scholarship — University of Tehran (2023)</li>
+          <li>Nationwide Graduate Entrance Exam: <strong>Rank 5 / 9,000</strong> (2023)</li>
+          <li><strong>Silver Medal</strong> — TEKNOFEST/ISIF’21 (2021)</li>
+          <li>National Undergraduate Full-Ride Scholarship (2017)</li>
+          <li>Nationwide Undergraduate Entrance: <strong>Top 1% (Rank 854 / 148,000)</strong> (2017)</li>
+        </ul>
+      </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="kvs">
-      <div class="kv"><strong>Modeling/Simulation:</strong> COMSOL (Proficient), OpenFOAM (Basic), LAMMPS (Basic), CATIA (Proficient)</div>
-      <div class="kv"><strong>Programming/Math:</strong> MATLAB, Python, Mathematica, LaTeX</div>
-      <div class="kv"><strong>Languages:</strong> Turkish (Native), Persian (Fluent), English (Fluent), French (Intermediate)</div>
-    </div>
-  </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="kvs">
+          <div class="kv"><strong>Modeling/Simulation:</strong> COMSOL (Proficient), OpenFOAM (Basic), LAMMPS (Basic), CATIA (Proficient)</div>
+          <div class="kv"><strong>Programming/Math:</strong> MATLAB, Python, Mathematica, LaTeX</div>
+          <div class="kv"><strong>Languages:</strong> Turkish (Native), Persian (Fluent), English (Fluent), French (Intermediate)</div>
+        </div>
+      </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:mm.rahimi@ut.ac.ir">mm.rahimi@ut.ac.ir</a><br>
-       GitHub: <a href="https://github.com/MM-Rahimi">github.com/MM-Rahimi</a><br>
-       CV (PDF): <a href="/aboutme/CV.pdf">Download</a></p>
-  </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:mm.rahimi@ut.ac.ir">mm.rahimi@ut.ac.ir</a><br>
+           GitHub: <a href="https://github.com/MM-Rahimi">github.com/MM-Rahimi</a><br>
+           CV (PDF): <a href="CV.pdf">Download</a></p>
+      </section>
+    </main>
+  </div>
+</div>
 
-</main>
-
-<footer class="footer">
-  © Mohammad Mahdi Rahimi
-</footer>
 </body>
 </html>
